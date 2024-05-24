@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abarrotes Che</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/favicon.png"/>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header--title"><img class="header__logo">Abarrotes Che</h1>
+
+        <input
+          type="text"
+          class="header__item--search_input"
+          placeholder="Search"
+        />
+        <nav class="header__navbar">
+          <ul class="header__navbar__list">
+            <li class="header__navbar__list__item">
+              <a href="#departamentos">Departamentos</a>
+            </li>
+
+            <li class="header__navbar__list__item">
+              <a href="#nosotros">Nosotros</a>
+            </li>
+            <li class="header__navbar__list__item">
+              <a href="building.html">Cuenta</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="container__content">
+        <section class="section__principal">
+          <div class="section__principal__image">
+            <div class="section__principal__image--gradient">
+              <h2 class="section__principal__image--gradient__title">
+                Abarrotes </br> "Che"
+              </h2>
+              <p class="section__principal__image--gradient__description">
+                Si buscas lo mejor, en "Che" siempre hallarás,</br>
+                productos que te encantan y disfrutarás.
+            </p>
+            </div>
+          </div>
+        </section>
+         
+        <section class="section__ofertas" id="ofertas">
+          <h2 class="section__ofertas--title">Ofertas solo para ti</h2>
+
+          <div class="section__ofertas--container">
+            <div class="section__ofertas__item">
+                <div class="section__ofertas__item--image_a1">
+
+                </div>
+                <h2 class="section__ofertas__item--title">Abarrotes</h2>
+            </div>
+            <div class="section__ofertas__item">
+                <div class="section__ofertas__item--image_a2">
+
+                </div>
+                <h2 class="section__ofertas__item--title">Cuidado personal</h2>
+            </div>
+            <div class="section__ofertas__item">
+                <div class="section__ofertas__item--image_a3">
+
+                </div>
+                <h2 class="section__ofertas__item--title">Limpieza</h2>
+            </div>
+            <div class="section__ofertas__item">
+                <div class="section__ofertas__item--image_a4">
+
+                </div>
+                <h2 class="section__ofertas__item--title">Lacteos</h2>
+            </div>
+          </div>
+        </section>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2 class="modal-title">Artículos destacados</h2>
+              <div class="modal-items">
+              </div>
+            </div>
+          </div>
+        <section class="section__departamentos" id="departamentos">
+          <h2 class="section__departamentos--title">Nuestros departamentos</h2>
+          
+          <div class="section__departamentos--container">
+            <div class="section__departamentos__item" onclick="openModal('congelados')">
+              <h3 class="section__departamentos__item--title">Congelados</h3>
+              <div class="section__departamentos__item--image section__departamentos__item--image__congelados"></div>
+            </div>
+            <div class="section__departamentos--container">
+                <div class="section__departamentos__item "onclick="openModal('Papel')">
+                  <h3 class="section__departamentos__item--title">Papel para el hogar</h3>
+                  <div class="section__departamentos__item--image section__departamentos__item--image__papel">
+
+                 </div>
+            </div>
+            <div class="section__departamentos--container" onclick="openModal('Abarrotes')">
+                <div class="section__departamentos__item">
+                  <h3 class="section__departamentos__item--title">Abarrotes</h3>
+                  <div class="section__departamentos__item--image section__departamentos__item--image__abarrotes">
+
+                 </div>
+            </div>
+            <div class="section__departamentos--container" onclick="openModal('Cuidado Personal')">
+                <div class="section__departamentos__item">
+                  <h3 class="section__departamentos__item--title">Cuidado personal</h3>
+                  <div class="section__departamentos__item--image section__departamentos__item--image__cuidado">
+
+                 </div>
+            </div>
+          </div>
+        </section>
+        <section class="section__nosotros" id="nosotros">
+          <h2 class="section__nosotros--title">Acerca De Nosotros</h2>
+          <div class="section__nosotros--container">
+            <p class="section__nosotros--description">
+              
+              ¡Bienvenidos a "Che", la auténtica tienda de abarrotes mexicana!
+              Desde hace 24 años, nuestra familia ha tenido el orgullo de servir
+              a la comunidad con los mejores productos nacionales y un trato
+              cálido y familiar.</br></br> Fundada en 1999 por Don Miguel y Doña Lupe, dos
+              inmigrantes mexicanos con un sueño, "Che" nació con el propósito
+              de ofrecer un pedacito de México a todos aquellos que extrañaban
+              los sabores de su tierra. Lo que comenzó como una pequeña tiendita
+              de la esquina, se ha convertido en un ícono de la cultura mexicana
+              en la ciudad, gracias a la dedicación de nuestros fundadores y al
+              apoyo incondicional de nuestros fieles clientes, a quienes
+              consideramos parte de nuestra familia "Che".</br></br> En "Che" encontrarás
+              una amplia variedad de auténticos productos mexicanos, desde los
+              clásicos chiles, frijoles y tortillas, hasta los deliciosos panes
+              dulces y las refrescantes aguas frescas.</br></br> Nuestro equipo de
+              trabajo, conformado en su mayoría por mexicanos orgullosos de sus
+              raíces, se esmera cada día en brindar un servicio excepcional y
+              hacer que te sientas como en casa. Más que una simple tienda de
+              abarrotes, "Che" es un lugar donde se celebra la rica cultura
+              mexicana, se comparten historias y se forjan amistades duraderas.</br></br>
+              Ven y déjate envolver por los aromas, los sabores y la calidez que
+              solo un negocio familiar mexicano puede ofrecerte.</br></br> ¡Te esperamos
+              con los brazos abiertos en "Che"!
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer--made_by">
+          Made by Rafael Gonzalez, Sofia Solis, Monse Anzures
+        </p>
+        <audio src="audio-principal.mp3" autoplay loop></audio>
+      </footer>
+    </div>
+  </body>
+  <script src="js/script.js"></script>
+</html>

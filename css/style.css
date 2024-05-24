@@ -1,0 +1,448 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 ;
+  }
+.header{
+    background-color: #b7923a;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.header__logo{
+    background-size: cover;
+    
+}
+.header--title {
+    margin-left: 15px;
+    font-size: 32px;
+
+}
+.header__navbar{
+    display: flex;
+    align-items: center;
+}
+.header__navbar__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.header__item--search_input{
+    border-radius: 10px;
+    width: 800px;
+    height: 30px;
+    text-align: left;
+    box-sizing: border-box;
+    border: none ;
+    border-radius: 0;
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    outline: none;
+    padding: 0 10px;
+    border-left: 4px solid #666;
+}
+.header__navbar__list__item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+  }
+  .header__navbar__list__item a:hover{
+    color:#e9d9b4
+  }
+  .container__content{
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    background-color: #ffffff;
+  }
+
+  .section__principal{
+    display: flex;
+    width:  100%;
+    height:  700px; 
+  }
+  .section__principal__image{
+    background-image: url("/img/cajera.jpg");
+    background-size: cover;
+    background-position: right top;
+    width:  100%;
+    height:  100%;
+
+  }
+  .section__principal__image--gradient{
+    background: linear-gradient(to right,#000000ee,transparent);
+    width:  100%;
+    height:  100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+   .section__principal__image--gradient__title{
+    color: #efe7d6;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding: 40px 60px;
+    text-align: left;
+   } 
+   .section__principal__image--gradient__description{
+    color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  padding: 20px 40px;
+  text-align: left;
+
+   }
+  .section__ofertas{
+    background-color: #f0ede5;
+    border-radius: 10px;
+    width:  100%;
+    margin: 20px auto;
+
+  }
+  .section__ofertas--title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 40px 60px 0;
+
+  }
+.section__ofertas--container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.section__ofertas__item{
+    width: 300px;
+    height: 650px;
+    border-radius: 10px;
+    background-color: #e7dec5;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+.section__ofertas__item--title{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #4c4444;
+    flex-grow: 1;
+    padding: 20px;
+}
+.section__ofertas__item--button{
+    padding: 10px;
+    background-color: #e9d9b4;
+    border-radius: 10px;
+    outline: #35342f;
+    font-size: 18px;
+}
+.section__ofertas__item--image{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.section__ofertas__item--image_a1{
+    background-image: url("/img/ofertas/a1.webp");
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.section__ofertas__item--image_a2{
+    background-image: url("/img/ofertas/a2.webp");
+
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.section__ofertas__item--image_a3{
+    background-image: url("/img/ofertas/a3.webp");
+
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.section__ofertas__item--image_a4{
+    background-image: url("/img/ofertas/a4.webp");
+
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.section__departamentos{
+    background-color: #f0ede5;
+    border-radius: 10px;
+    width:  100%;
+    margin: 20px auto;
+}
+.section__departamentos--title{
+    padding: 40px 60px 0;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.section__departamentos--container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.section__departamentos__item{
+    background-color: #e7dec5;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    max-width: 100%;
+    height: 300px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.26);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.section__departamentos__item:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.36);
+}
+.section__departamentos__item--image{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.section__departamentos__item--image__congelados{
+    background-image: url("/img/congelados.jpg");
+    background-size: cover;
+    background-position: right top;
+    width:  100%;
+    height:  100%;
+    border-radius: 10px ;
+
+}
+
+.section__departamentos__item--image__papel{
+    background-image: url("/img/papel.jpg");
+    background-size: cover;
+    background-position: right top;
+    width:  100%;
+    height:  100%;
+    border-radius: 10px ;
+}
+.section__departamentos__item--image__abarrotes{
+    background-image: url("/img/abarrotes.jpg");
+    background-size: cover;
+    background-position: right top;
+    width:  100%;
+    height:  100%;
+    border-radius: 10px ;
+}
+.section__departamentos__item--image__cuidado{
+    background-image: url("/img/cuidado.jpg");
+    background-size: cover;
+    background-position: right top;
+    width:  100%;
+    height:  100%;
+    border-radius: 10px ;
+
+}
+.section__departamentos__item--title {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #4c4444;
+  flex-grow: 1;
+
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.modal-title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 0px 60px 0;
+    text-align: center;
+}
+.modal-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+  }
+  
+  .modal-item-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+  }
+  
+  .modal-item-details {
+    flex-grow: 1;
+  }
+  
+  .modal-item-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+  }
+  
+  .modal-item-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .modal-item-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #008000;
+  }
+
+.section__nosotros{
+    background-color: #f0ede5;
+    border-radius: 10px;
+    width:  100%;
+    margin: 20px 0;
+
+}
+.section__nosotros--title{
+    padding: 40px 60px 0;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.section__nosotros--description{
+    padding: 20px 60px 20px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #35342f;
+}
+.footer {
+    background-color: #b7923a;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.26);
+    text-align:center
+  }
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+    }
+  
+    .header--title {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  
+    .header__navbar__list {
+      flex-direction: column;
+    }
+  
+    .header__item--search_input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .section__principal{
+        display: flex;
+        width:  100%;
+        height:  500px; 
+      }
+    .section__principal__image{
+        background-image: url("/img/cajera.jpg");
+        background-size: cover;
+        background-position: right top;
+        width:  100%;
+        height:  100%;
+    
+      }
+    .section__principal__image--gradient__title {
+      font-size: 48px;
+      letter-spacing: 3px;
+      padding: 50px 20px;
+    }
+  
+    .section__principal__image--gradient__description {
+      font-size: 30px;
+      letter-spacing: 2px;
+      padding: 100px 20px;
+    }
+  
+    
+  }
