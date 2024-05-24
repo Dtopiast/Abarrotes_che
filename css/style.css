@@ -72,7 +72,7 @@ body{
     height:  700px; 
   }
   .section__principal__image{
-    background-image: url("https://dtopiast.github.io/Abarrotes_che/img/cajera.jpg");
+    background-image: url("img/cajera.jpg");
     background-size: cover;
     background-position: right top;
     width:  100%;
@@ -425,7 +425,7 @@ body{
         height:  500px; 
       }
     .section__principal__image{
-        background-image: url("https://dtopiast.github.io/Abarrotes_che/img/cajera.jpg");
+        background-image: url("img/cajera.jpg");
         background-size: cover;
         background-position: right top;
         width:  100%;
